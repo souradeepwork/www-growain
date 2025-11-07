@@ -1,0 +1,12 @@
+.grid-scan-container {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.grid-scan-container canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
