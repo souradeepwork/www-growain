@@ -1,9 +1,10 @@
 ﻿"use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
-import { Card, CardContent } from "@/components/ui/Card";
-import { PenSquare } from "lucide-react";
+import { Card, CardContent, CardTitle, CardDescription } from "@/components/ui/Card";
+import { PenSquare, ArrowRight, CheckCircle2 } from "lucide-react";
 
 const futureTopics = [
   "Local SEO playbooks",
